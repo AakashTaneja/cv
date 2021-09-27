@@ -1,0 +1,158 @@
+/***************************TAG Selectors****************/
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e
+}
+/* 16px = 100% = 1em */
+h1{
+
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #3a5d6e;
+
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  color: #3a5d6e;
+
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #3a5d6e;
+
+}
+
+
+p{
+  margin-top: 0;
+  line-height: 2;
+}
+
+left-align-para{
+  text-align: left;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 3%;
+  margin:50px auto;
+}
+
+/***************************CLASS Selectors****************/
+/*
+.divheight{
+  height: 300px;
+  background-color: #C8C6C6;
+}
+*/
+.main-image{
+  margin-bottom: 40px;
+  border-radius: 50%;
+}
+
+.top-container{
+  background-color: #93B5C6;
+  padding-top: 50px;
+  position: relative;
+
+}
+.middle-container{
+  margin: 100px 0 50px;
+}
+.bottom-container{
+  background-color: #93B5C6;
+  height: 100px;
+  padding-top: 50px;
+}
+
+.intro{
+ width: 50%;
+ margin: auto;
+}
+.relative-img{
+  position: relative;
+  right: 30px;
+}
+
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top: 30px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left:280px;
+  bottom: 350px;
+}
+
+.skill-row{
+   width: 50%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+
+}
+
+.skill-image-tpm{
+width: 30%;
+float: left;
+margin-right: 30px;
+}
+
+.skill-image-method{
+width: 30%;
+float: right;
+margin-left: 30px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  margin-top: 25px;
+  font-size: 0.75rem;
+}
+
+.footer-links{
+  padding-left:25px;
+  padding-right: 25px;
+  color:#3a5d6e;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.footer-links:hover{
+  color: #EAF6F6
+}
+
+
+.BUTTON_OSZ {
+   background: #93B5C6;
+   background-image: -webkit-linear-gradient(top, #93B5C6, #93B5C6);
+   background-image: -moz-linear-gradient(top, #93B5C6, #93B5C6);
+   background-image: -ms-linear-gradient(top, #93B5C6, #93B5C6);
+   background-image: -o-linear-gradient(top, #93B5C6, #93B5C6);
+   background-image: -webkit-gradient(to bottom, #93B5C6, #93B5C6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Merriweather', serif;;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+
+   margin-top: 25px;
+  margin-bottom: 25px;
+}
